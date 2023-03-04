@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-22</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="header" >
+        <div class="container  ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">SAIDUL ISLAM</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                              <li class="nav-item ">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">PROFILE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT US</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT US</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  MORE
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                              
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/Barisal University.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>BARISAL UNIVERSITY</h5>
+                                  <p>University of Barishal is a public university located in Barishal, a divisional city in southern Bangladesh. It is the only general public university in Barishal division and the country's 33rd public university</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/Flower.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Mustard Plant</h5>
+                                  <p>Mustard belongs to the Brassicaceae family (crucifers) and is an annual herbaceous plant with long, branched stems measuring between 1 and 2 metres, and clusters of yellow flowers. Mustard grows easily in temperate climates.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/Kuakata-Sea-Beach.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Kuakata-Sea-Beach</h5>
+                                  <p>Large centrally located beach in a natural setting, known for its sunrise & sunset views</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service " >
+            <div class="container text-center">
+                <div class="row" >
+                    <div class="col-md-3" >
+                        <div class="card" >
+                            <img src="images/Guava-Floating-Market.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guava Floating Market</h5>
+                              <p class="card-text">You might have heard about the floating markets in Thailand. But have you heard anything about the floating market in Bangladesh? Its my Bangladesh</p>
+                              <a href="#" class="btn btn-primary">Go Read</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img  src="images/Guitha Mosque,Barisal.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guitha Mosque</h5>
+                              <p class="card-text">The Baitul Aman Jame Masjid Complex, commonly known as Guthia Mosque of Barisal, is a mosque complex of Bangladesh having a land area of 14 acres.</p>
+                              <a href="#" class="btn btn-primary">Go Read</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Guava.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guava</h5>
+                              <p class="card-text">You might have heard about the floating markets in Thailand. But have you heard anything about the floating market in Bangladesh? Its my Bangladesh</p>
+                              <a href="#" class="btn btn-primary">Go Read</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Jacob-Watch-Tower-Bhola.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jacob tower</h5>
+                              <p class="card-text">Jakob Tower is a tourist watchtower located in the Char Fasson town of Bhola Island in southern Bangladesh. Natural beauty can be enjoyed from this tower.</p>
+                              <a href="#" class="btn btn-primary">Go Read</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/Mia Bari Mosque Barishal.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">The Karapur Miah Bari Mosque ,  is a three domed ancient mosque and archaeological site located in the Barisal District of Bangladesh.[1][2] It is located in Miah Bari, in the village of North Karapur in Raipasha-Karapur Union, Barisal Sadar Upazila.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/Flower.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Mustard belongs to the Brassicaceae family (crucifers) and is an annual herbaceous plant with long, branched stems measuring between 1 and 2 metres, and clusters of yellow flowers. Mustard grows easily in temperate climates. A cousin of the rapeseed plant, it is nonetheless more resistant to drought, heat and frost.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/mv-adventure-9.jpg " class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Adventure Launch is the market-leading value Launch operator in Dhaka, Bangladesh to make travel simple for customers. It is part of Nizam Group of Company, the transport group that offers safer, smarter travel at great value prices.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/Nature_of_Bangladesh._Jpj.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Bangladesh has a land of enormous beauty, hundreds of serpentine rivers, crystal clear water lakes surrounded by ever green hills, luxuriant tropical rain forests, beautiful cascades of green tea gardens, world's largest mangrove forest preserved as World Heritage, home of the Royal Bengal Tiger and the wild lives, ...</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/Team.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">M. A. Hakim</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/Team4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Saidul Islam</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Team.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Asowad Ibne Ridoy</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" >
+                            <img src="images/Team2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Habibur Rahman</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="galary">
+          <div class="container">
+            <div class="row" style="margin-left:200px ;">
+              <div class="col-md-3" style="width:18rem">
+                <img src="images/Red Water Lilies.jpg" class="img-thumbnail" alt="...">
+                
+              </div>
+              <div class="col-md-3" style="width:18rem">
+                
+                <img src="images/Sajek.jfif" class="img-thumbnail" alt="...">
+                
+              </div>
+              <div class="col-md-3" style="width:18rem">
+                
+                <img src="images/SHUNDARBAN-1.jpg" class="img-thumbnail" alt="...">
+                
+              </div>
+              <div class="col-md-3" style="width:18rem">
+                
+                <img src="images/Nature_of_Bangladesh._Jpj.jpg " class="img-thumbnail" alt="...">
+                
+              </div>
+              <div class="col-md-3" style="width:18rem">
+                
+                <img src="images/istockphoto-1034948188-612x612.jpg" class="img-thumbnail" alt="...">
+              </div>
+              <div class="col-md-3" style="width:18rem">
+                <img src="images/Guava-Floating-Market.jpg" class="img-thumbnail" alt="...">
+                
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="details">
+          <div class="container">
+            <div class="row ">
+              <div class="col-md-4">
+                <div class="card bg-info">
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  
+                  <ul  class="list-group list-group-flush">
+                    <li class="list-group-item bg-secondary">Address</li>
+                    <li class="list-group-item">About Us</li>
+                    <li class="list-group-item bg-secondary">Gelary</li>
+                  </ul>
+               
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-info">
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item  bg-secondary">Protfolio</li>
+                    <li class="list-group-item">Profil</li>
+                    <li class="list-group-item bg-secondary">Our Team</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-info">
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-secondary">Our Service</li>
+                    <li class="list-group-item">Career</li>
+                    <li class="list-group-item bg-secondary">Our mission</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews">
+          <div class="container">
+            <div class="row ">
+              <div class="col-md-3 ">
+                <div class="card">
+                  <div class="card-header">
+                    Review
+                  </div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>Barishal is a traditional town surrounded by rivers and adorned with crops in Bangladesh..</p>
+                      <footer class="blockquote-footer">Review by <cite title="Source Title">Dr.Foysal Ahmed</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-header">
+                    Review
+                  </div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>Sher-e-Bangla Medical College is a government medical school in Bangladesh, established in 1968. The college is located in Barisal.</p>
+                      <footer class="blockquote-footer">Review by <cite title="Source Title">Eng.Masud Rana</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-header">
+                    Review
+                  </div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>Durga Sagar is a man-made pond where a number of migratory birds arrive every winter.</p>
+                      <footer class="blockquote-footer">Review by <cite title="Source Title">Saidul Islam</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-header">
+                    Review
+                  </div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>Kuakata beach is the main tourist spot in the division. It is one of the two sea beaches in.</p>
+                      <footer class="blockquote-footer">Review by <cite title="Source Title">MD.Manik</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="details">
+          <div class="container" style="margin-left: 200px;">
+            <div class="row" >
+              <div class="col-md-4">
+                <iframe  src="https://www.youtube.com/embed/4wUXS_W-mtE" title="Barishal । বরিশাল । Barishal Travel Vlog । History of Barishal Bangladesh । Barishal Vromon Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-4">
+                <iframe  src="https://www.youtube.com/embed/Mg6YkZOxK0o" title="✈ ঢাকা টু বরিশাল বিমান ভ্রমণ 🇧🇩 Dhaka to Barisal | ATR 72-600 | US Bangla Airlines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-4">
+                <iframe  src="https://www.youtube.com/embed/Kyg3o0dtBDI" title="Kuakata । কুয়াকাটা । Kuakata Vromon Guide । Kuakata Sea Beach । Kuakta Tour  ।  Kuakta Tourist Spot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="details">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58894.13647543677!2d90.31878474254528!3d22.695379290521466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37553407fbece487%3A0x5d069b9599d4414a!2sBarishal!5e0!3m2!1sen!2sbd!4v1669721944222!5m2!1sen!2sbd" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="details ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3" >
+                <div class="card  text-center" >
+                  <img src="images/saidul.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Designer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">SAIDUL ISLAM</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
